@@ -1,0 +1,22 @@
+
+{
+  "name": "cypress-audit-board-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "John Thiel",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  },
+  "dependencies": {
+    "cypress-lighthouse": "^0.1.0",
+    "jwt-encode": "^1.0.1"
+  }
+}
+
